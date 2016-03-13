@@ -1,0 +1,121 @@
+/*
+My custom css styles. Some of this is made to override some defaults of bootstrap's css
+such as padding, etc.) 
+
+*/
+
+body {
+margin-top: 30px;
+padding: 0;
+font-family: "Open Sans", Helvetica, Sans-Serif;
+background-color: #EBE5D1;
+color: #666;
+}
+
+h1{
+font-family: "Roboto Mono", "Courier New", Monospace;
+font-weight: 200;
+}
+
+h3,h4,h5{
+	font-size: 200%;	
+}
+
+p.lead {
+font-weight: 400;
+font-size: 150%;
+}
+
+a {
+color: #2D74DC;
+}
+
+.small-caps {
+font-variant: small-caps;	
+}
+/* Author photo banner */
+
+.banner {
+color: #EBE5D1;
+background-color: #2D74DC;
+text-align: center;
+padding: 1em;
+}
+
+.banner-img {
+width: 180px;
+border-radius: 50%;
+margin: 0 auto;
+}
+
+
+/* Disable padding on container div */
+
+.nopad {
+margin: 0;
+padding: 0;
+}
+
+nav.navbar, .dropdown-menu {
+background-color: #444444;
+}
+
+ul.nav a{
+/*text-shadow: 1px 1px #111111;*/
+color: #EBE5D1 !important;
+}
+
+ul.nav a:hover {
+background-color: #D4CEBA !important;
+color: #111 !important;
+}
+
+ul.nav li.active a, ul.nav li.open a.dropdown-toggle{
+background-color: #2D74DC !important;
+color: white !important;
+}
+
+
+
+/* Fix stuff */
+
+.row {
+margin-right: 0px;
+}
+
+/* About me section */
+
+.about-me, .code-logos {
+padding: 1.5em;
+font-size: 150%;
+}
+
+.code-logos img {
+width: 200px;
+}
+
+/* Folio section */
+
+.folio {
+color: #EBE5D1;
+background-color: #444;
+padding: 1.5em;
+font-size: 150%;
+}
+
+.folio-entry {
+border-top: 1px dashed #EBE5D1;
+padding-top: 10px;	
+}
+
+img.folio-shot {
+margin: 0 auto;
+width: 235px;
+}
+
+/* Contact section */
+
+.contact-me {
+padding: 0.5em;
+font-size: 150%;
+}
