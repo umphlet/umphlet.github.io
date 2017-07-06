@@ -1,0 +1,228 @@
+//output:index.html
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(content='IE=edge', http-equiv='X-UA-Compatible')
+    meta(content='width=device-width, initial-scale=1', name='viewport')
+    meta(content='text/html; charset=utf-8', http-equiv='Content-Type')
+    title Sean Umphlet
+    link(href='/img/su.png', rel='shortcut icon', type='image/x-icon')
+    link(href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300|Roboto+Mono:400,700,300', rel='stylesheet')
+    link(href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', rel='stylesheet')
+    link(href='//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css', rel='stylesheet')
+    link(href='/css/custom.css', rel='stylesheet')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js', type='text/javascript')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js', type='text/javascript')
+    script(src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', type='text/javascript')
+    script(src='/js/scroll-animate.js', type='text/javascript')
+    //if lt IE 9
+      script(src='/js/html5shiv.min.js')
+      script(src='/js/respond.min.js')
+      script(src='/js/respond.jquery-1.12.1.min.js')
+  body#home
+    #top.container-fluid.nopad
+      // Static navbar
+      nav.navbar.navbar-default.navbar-fixed-top
+        .container
+          .navbar-header
+            button.navbar-toggle.collapsed(aria-controls='navbar', aria-expanded='false', data-target='#navbar', data-toggle='collapse', type='button')
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            a.navbar-brand.scroll(href='#home') su
+          #navbar.navbar-collapse.collapse
+            ul.nav.navbar-nav
+              // <li class="active"><a href="#">Home</a></li>
+              li
+                a.scroll(href='#about') About
+              li
+                a.scroll(href='#portfolio') Portfolio
+              li
+                a.scroll(href='#contact') Contact
+              li.dropdown
+                a.dropdown-toggle(aria-expanded='false', aria-haspopup='true', data-toggle='dropdown', href='#', role='button')
+                  | Extras
+                  span.caret
+                ul.dropdown-menu
+                  li.dropdown-header On This Site
+                  li
+                    a(href='/blog/') Personal Blog
+                  li
+                    a(href='/music/') Music Reviews
+                  li.divider(role='separator')
+                  li.dropdown-header Off This Site
+                  li
+                    a(href='#') My Resume
+                  li
+                    a(href='#') Cheese!
+            ul.nav.navbar-nav.navbar-right
+              li
+                a(href='https://github.com/umphlet')
+                  i.fa.fa-github.fa-fw
+                  span.hidden-sm.hidden-md.hidden-lg Github
+              li
+                a(href='https://www.linkedin.com/in/umphlet')
+                  i.fa.fa-linkedin.fa-fw
+                  span.hidden-sm.hidden-md.hidden-lg LinkedIn
+              li
+                a(href='https://facebook.com/umphlet')
+                  i.fa.fa-facebook.fa-fw
+                  span.hidden-sm.hidden-md.hidden-lg Facebook
+              li
+                a(href='https://twitter.com/sumphlet')
+                  i.fa.fa-twitter.fa-fw
+                  span.hidden-sm.hidden-md.hidden-lg Twitter
+              li
+                a(href='https://plus.google.com/u/0/+SeanUmphlet')
+                  i.fa.fa-google-plus.fa-fw
+                  span.hidden-sm.hidden-md.hidden-lg Google+
+              li
+                a(href='http://telegram.me/umphlet')
+                  i.fa.fa-send.fa-fw
+                  span.hidden-sm.hidden-md.hidden-lg Telegram Me
+              li
+                a(href='http://freecodecamp.com/umphlet')
+                  i.fa.fa-fire.fa-fw
+                  span.hidden-sm.hidden-md.hidden-lg Free Code Camp
+          // /.nav-collapse
+      .banner
+        h1 sean.umphlet
+        img.banner-img.img-responsive(alt='me', src='/img/me.jpg')
+        h2 Random bits and bytes
+      #about.row.about-me
+        p.lead Hi! My name is Sean Umphlet.
+        p
+          | I'm a self-taught web developer who is currently updating my coding prowess through Free Code Camp. I am looking to re-start my web development career by learning the latest technologies and combining them with my knowledge and experience from the past. Previously I worked for two years (Between 2006 and 2008) at a web development and SEO startup, so I am also familiar with coding in a search engine friendly way as well as using responsive web design strategies.
+        p
+          | I have been working retail jobs for the last decade or so and would really love to get out of it... so take a look and feel free to contact me to discuss what I have to offer. I really don't want to be working in a convenience store for the rest of my life! Help!
+        h3.small-caps Competencies
+        ul
+          li HTML 5 / Jade ★ ★ ★
+          li CSS 3 / Sass / SCSS ★ ★ ★
+          li Bootstrap ★ ★ ★
+          li PHP / MySQL ★ ★ ☆
+          li jQuery ★ ★ ☆
+          li JavaScript ★ ★ ☆
+        h3.small-caps Technologies
+        ul
+          li Git / Github
+          li Unix / Linux
+          li
+            abbr(title='Responsive Web Design') RWD
+          li
+            abbr(title='Search Engine Optimization') SEO
+      .row.code-logos
+        .col-xs-4.col-xs-offset-2.col-md-2.col-md-offset-1
+          img.img-responsive(alt='HTML 5', src='/img/html5.png')
+        .col-xs-4.col-md-2
+          img.img-responsive(alt='CSS 3', src='/img/css3.png')
+        .col-xs-4.col-md-2
+          img.img-responsive(alt='PHP', src='/img/php.png')
+          br
+          img.img-responsive(alt='MySQL', src='/img/mysql.png')
+        .col-xs-4.col-md-2
+          img.img-responsive(alt='jQuery', src='/img/jquery.png')
+        .col-xs-4.col-md-2
+          img.img-responsive(alt='bootstrap', src='/img/bootstrap.png')
+          br
+    #portfolio.folio
+      .row
+        h3.text-center.small-caps Portfolio
+        h4.text-center.small-caps.top-dash
+          | Projects
+      .row.folio-entry
+        .col-xs-12.col-md-4
+          a(href='http://codepen.io/umphlet/pen/QNJMPE')
+            img.img-responsive.folio-shot(alt='Random Quote Screenshot', src='/img/random-quote.png')
+        .col-xs-12.col-md-8
+          dl
+            dt
+              a(href='http://codepen.io/umphlet/pen/QNJMPE') Random Quote Generator
+            dd A Random Quote Generator I created for Free Code Camp!
+      .row.folio-entry
+        .col-xs-12.col-md-4
+          a(href='https://codepen.io/umphlet/pen/reQrLb')
+            img.img-responsive.folio-shot(alt='Weather Report Screenshot', src='/img/weather-report.png')
+        .col-xs-12.col-md-8
+          dl
+            dt
+              a(href='https://codepen.io/umphlet/pen/reQrLb') Simple Weather Page
+            dd A Super Simple Weather Page I created for Free Code Camp!
+      .row.folio-entry
+        .col-xs-12.col-md-4
+          a(href='https://codepen.io/umphlet/pen/WxRPKE')
+            img.img-responsive.folio-shot(alt='Random Quote Screenshot', src='/img/questionblock.png')
+        .col-xs-12.col-md-8
+          dl
+            dt
+              a(href='https://codepen.io/umphlet/pen/WxRPKE') Twitch Streamers
+            dd Twitch Streamers Project I created for Free Code Camp! It will display whether or not certain twitch streamers are online, offline, or inactive.
+      .row.folio-entry
+        .col-xs-12.col-md-4
+          a(href='https://codepen.io/umphlet/pen/gMwmRb')
+            img.img-responsive.folio-shot(alt='Random Quote Screenshot', src='/img/questionblock.png')
+        .col-xs-12.col-md-8
+          dl
+            dt
+              a(href='https://codepen.io/umphlet/pen/gMwmRb') Wikipedia Viewer
+            dd Wikipedia Viewer Project I created for Free Code Camp! You can search for Wikipedia articles and they will display along with related images.
+      h4.text-center.small-caps.top-dash
+          | Templates
+      //
+        <div class="row folio-entry">
+              <div class="col-xs-12 col-md-4"><img class="img-responsive folio-shot" src="/img/questionblock.png"></div>
+              <div class="col-xs-12 col-md-8">
+                <dl>
+                  <dt>Future Project</dt>
+                  <dd>Nothing here yet!</dd>
+                </dl>
+              </div>
+            </div>
+            <div class="row folio-entry">
+              <div class="col-xs-12 col-md-4"><img class="img-responsive folio-shot" src="/img/questionblock.png"></div>
+              <div class="col-xs-12 col-md-8">
+                <dl>
+                  <dt>Future Project</dt>
+                  <dd>Nothing here yet!</dd>
+                </dl>
+              </div>
+            </div>
+    #contact.row.contact-me
+      .col-xs-12.col-md-6.col-md-offset-3
+        h3.small-caps Contact Me
+        ul.contact-list
+          li
+            a(href='https://github.com/umphlet')
+              i.fa.fa-github.fa-fw
+              |  Github
+          li
+            a(href='https://www.linkedin.com/in/umphlet')
+              i.fa.fa-linkedin.fa-fw
+              |  LinkedIn
+          li
+            a(href='https://facebook.com/umphlet')
+              i.fa.fa-facebook.fa-fw
+              |  Facebook
+          li
+            a(href='https://twitter.com/sumphlet')
+              i.fa.fa-twitter.fa-fw
+              |  Twitter
+          li
+            a(href='https://plus.google.com/u/0/+SeanUmphlet')
+              i.fa.fa-google-plus.fa-fw
+              |  Google+
+          li
+            a(href='http://telegram.me/umphlet')
+              i.fa.fa-send.fa-fw
+              |  Telegram Me
+          li
+            a(href='http://freecodecamp.com/umphlet')
+              i.fa.fa-fire.fa-fw
+              |  Free Code Camp
+    .row.footer
+      .col-xs-10
+        p Copyright © 2016 Sean Umphlet and the Dyanax Corporation.
+      .col-xs-2.whoo
+        p :)

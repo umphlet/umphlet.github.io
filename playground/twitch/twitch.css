@@ -1,0 +1,89 @@
+@import '//fonts.googleapis.com/css?family=Lato|Roboto+Condensed';
+body {
+  font-family: Lato, Helvetica, Sans-Serif;
+  background-color: #6441a4;
+  color: #ccc;
+}
+
+.container {
+  padding: 10px;
+}
+
+#header {
+  font-family: "Roboto Condensed", Helvetica, Sans-Serif;
+  background-color: #ccc;
+  color: #444;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #444;
+}
+
+#header h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.streamblock, .online-block, .offline-block, .closed-block {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.streamblock img, .online-block img, .offline-block img, .closed-block img {
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+}
+
+.streamblock a, .online-block a, .offline-block a, .closed-block a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.streamblock a:hover, .online-block a:hover, .offline-block a:hover, .closed-block a:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.online-block {
+  background-color: #007e32;
+}
+
+.offline-block {
+  background-color: #0056b0;
+}
+
+.closed-block {
+  background-color: #ac4d4d;
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 10px auto;
+    max-width: 680px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 99%;
+  }
+}

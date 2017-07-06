@@ -1,0 +1,43 @@
+body {
+  font: 100% Roboto, Helvetica, sans-serif;
+  color: #333;
+  background-color: #f1e4c7 !important;
+}
+
+body .center {
+  text-align: center;
+}
+
+#searchform input {
+  border-color: #888;
+  background-color: #f0f0f0;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+#articleList dl#searchList {
+  text-align: left;
+  margin-left: 60px;
+}
+
+#articleList dl#searchList img {
+  width: 50px;
+  height: 40px;
+  float: left;
+  margin-right: 10px;
+}
+
+#articleList dl#searchList .listItem {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  border-color: #888;
+  border-width: 1px;
+  border-style: solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+#articleList dl#searchList dt, #articleList dl#searchList dd {
+  padding: 10px;
+}
