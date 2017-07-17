@@ -1,4 +1,4 @@
-@import '//fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono';
+@import url("//fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono");
 .banner, ul.nav li.active a, ul.nav li.open a.dropdown-toggle {
   background-color: #2D74DC !important;
   color: #EBE5D1 !important;
@@ -58,10 +58,10 @@ nav.navbar, .dropdown-menu {
 }
 
 ul.nav a {
-  -webkit-transition: all ease 0.3s;
-  -moz-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
   color: #EBE5D1 !important;
 }
 
@@ -97,10 +97,10 @@ ul.nav a:hover {
 }
 
 img.folio-shot {
-  -webkit-transition: all ease 0.3s;
-  -moz-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
   margin: 0 auto;
   width: 200px;
   height: 150px;
