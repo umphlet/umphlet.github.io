@@ -10,8 +10,8 @@ $(document).ready(function() {
             dest = $(this.hash).offset().top;
         }
         //go to destination
-        $('html,body').animate({
+        $("html,body").animate({
             scrollTop: dest
-        }, 1000, 'swing');
+        }, 1000, "swing");
     });
 });
