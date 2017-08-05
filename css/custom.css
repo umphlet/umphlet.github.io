@@ -1,4 +1,4 @@
-@import url("//fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono");
+@import url("//fonts.googleapis.com/css?family=Nimbus+Sans|Roboto+Mono");
 .banner, ul.nav li.active a, ul.nav li.open a.dropdown-toggle {
   background-color: #2D74DC !important;
   color: #EBE5D1 !important;
@@ -7,7 +7,7 @@
 body {
   margin-top: 30px;
   padding: 0;
-  font-family: "Open Sans", Helvetica, Sans-Serif;
+  font-family: "Nimbus Sans", Helvetica, Sans-Serif;
   background-color: #EBE5D1;
   color: #666;
 }
