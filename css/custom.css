@@ -1,14 +1,14 @@
 @import url("//fonts.googleapis.com/css?family=Liberation+Sans|Roboto+Mono");
 .banner, ul.nav li.active a, ul.nav li.open a.dropdown-toggle {
   background-color: #2D74DC !important;
-  color: #CCC !important;
+  color: #EEE !important;
 }
 
 body {
   margin-top: 30px;
   padding: 0;
   font-family: "Liberation Sans", Helvetica, Sans-Serif;
-  background-color: #CCC;
+  background-color: #EEE;
   color: #666;
 }
 
@@ -62,11 +62,11 @@ ul.nav a {
   -moz-transition: all ease 0.3s;
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
-  color: #CCC !important;
+  color: #EEE !important;
 }
 
 ul.nav a:hover {
-  background-color: #CCC !important;
+  background-color: #EEE !important;
   color: #444 !important;
 }
 
@@ -84,14 +84,14 @@ ul.nav a:hover {
 }
 
 .folio {
-  color: #CCC;
+  color: #EEE;
   background-color: #444;
   padding: 1.5em;
   font-size: 150%;
 }
 
 .folio-entry {
-  border-top: 1px dashed #CCC;
+  border-top: 1px dashed #EEE;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -116,7 +116,7 @@ img.folio-shot:hover {
 }
 
 .top-dash {
-  border-top: 1px dashed #CCC;
+  border-top: 1px dashed #EEE;
 }
 
 .contact-me {
